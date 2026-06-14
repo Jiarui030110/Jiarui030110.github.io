@@ -1,0 +1,65 @@
+#publications .max-w-prose {
+  max-width: 1300px !important;
+}
+
+#publications .prose {
+  max-width: 1300px !important;
+  width: 100%;
+}
+
+.publication-item {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto 2rem auto;
+}
+
+.publication-image {
+  flex: 0 0 300px;
+}
+
+.publication-image img {
+  width: 300px;
+  border: 1px solid #ccc;
+}
+
+.publication-info {
+  flex: 1;
+  min-width: 0;
+  line-height:1.6;
+}
+
+.publication-info a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.publication-info strong {
+  font-size: 22px;
+}
+
+.publication-info span {
+  font-size: 22px;
+}
+
+.publication-year {
+  font-size: 22px;
+}
+
+.publication-year {
+  flex: 0 0 130px;
+  text-align: right;
+  font-weight: 700;
+}
+
+.publication-title {
+  margin-bottom: 0rem;
+}
+.publication-authors {
+  margin-bottom: 0rem;
+}
+.publication-links {
+  margin-top: 3.6rem;
+}
