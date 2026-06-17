@@ -1,3 +1,31 @@
+
+#about .resume-biography {
+  padding-top: 2rem !important;
+}
+
+@media (min-width: 1024px) {
+  #about .resume-biography {
+    padding-top: 0rem !important;
+  }
+}
+
+#about .bio-text {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 900px;
+}
+
+#about .bio-link {
+  color: #2d73cd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#about .bio-link:hover {
+  text-decoration: underline;
+}
+
+
 #publications .max-w-prose {
   max-width: 1300px !important;
 }
@@ -13,7 +41,7 @@
   align-items: center;
   width: 100%;
   max-width: 1300px;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0.1rem auto;
 }
 
 .publication-image {
@@ -22,6 +50,8 @@
 
 .publication-image img {
   width: 300px;
+  height: 200px;
+  object-fit: fill;
   border: 1px solid #ccc;
 }
 
@@ -37,21 +67,15 @@
 }
 
 .publication-info strong {
-  font-size: 22px;
+  font-size: 18px;
 }
 
-.publication-info span {
-  font-size: 22px;
-}
 
 .publication-year {
-  font-size: 22px;
-}
-
-.publication-year {
-  flex: 0 0 130px;
-  text-align: right;
+  font-size: 18px;
   font-weight: 700;
+  margin-top: 1.5rem;
+  text-align: left;
 }
 
 .publication-title {
@@ -61,5 +85,143 @@
   margin-bottom: 0rem;
 }
 .publication-links {
-  margin-top: 3.6rem;
+  margin-top: 0.2rem;
+}
+
+#about .mb-12 > .flex.items-center.gap-4.mb-8 > div:first-child {
+  display: none;
+}
+
+
+#publications {
+  padding-top: 0 !important;
+  margin-top: -4rem !important;
+}
+
+#publications .max-w-prose {
+  align-items: flex-start !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#publications .mb-6 {
+  text-align: left !important;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  #about .resume-biography {
+    padding-bottom: 0rem !important;
+  }
+}
+
+#experience {
+  padding-top: 0 !important;
+  margin-top: -2rem !important;
+}
+
+#experience .max-w-prose {
+  max-width: 1300px !important;
+}
+
+#experience .prose {
+  max-width: 1300px !important;
+  width: 100%;
+}
+
+#experience .mb-6 {
+  text-align: left !important;
+  width: 100%;
+  margin-bottom: -1rem !important;
+}
+
+#experience .prose {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.experience-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+  border: 1px solid #ffffff;
+}
+
+.experience-item {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto -2rem auto;
+}
+
+.experience-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.experience-date {
+  flex: 0 0 auto;
+  margin-left: 1rem;
+  white-space: nowrap;
+  font-weight: 600;
+  text-align: right;
+}
+
+
+#service {
+  padding-top: 0 !important;
+  margin-top: -0.5rem !important;
+}
+
+#service .max-w-prose {
+  max-width: 1300px !important;
+}
+
+#service .prose {
+  max-width: 1300px !important;
+  width: 100%;
+}
+
+#service .mb-6 {
+  text-align: left !important;
+  width: 100%;
+  margin-bottom: 0.5rem !important;
+}
+
+#service .prose {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#others {
+  padding-top: 0 !important;
+  margin-top: -1.5rem !important;
+}
+
+#others .max-w-prose {
+  max-width: 1300px !important;
+}
+
+#others .prose {
+  max-width: 1300px !important;
+  width: 100%;
+}
+
+#others .mb-6 {
+  text-align: left !important;
+  width: 100%;
+  margin-bottom: 1rem !important;
+}
+
+#others .prose {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#experience li::marker,
+#service li::marker,
+#others li::marker {
+  color: #000;
 }

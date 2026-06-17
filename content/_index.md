@@ -17,9 +17,9 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: 'Biography'
-        education: 'Education'
-        interests: 'Interests'
+        about: 'About'
+        #education: 'Education'                                             
+        #interests: 'Interests'
     design:
       # Keep the homepage background plain white.
       background:
@@ -43,6 +43,26 @@ sections:
       text: |-
        <div class="publication-item">
         <div class="publication-image">
+          <img src="/media/publications/Magnetic cilia for flow measurement.png" alt="Magnetic cilia for flow measurement">
+        </div>
+       <div class="publication-info">
+        <div class="publication-title">
+         <strong>Biomimetic magnetic cilia sensor for flow vector measurement and motion state estimation of aquatic objects</strong>
+        </div>
+
+        <div class="publication-authors">
+        <strong>Jiarui He</strong>, Huangzhe Dai, Kan Liu, Chengfeng Pan, Neng Xia, Chengqian Zhang, Peng zhao
+        </div>
+
+        <div class="publication-year">
+         Submitted to IEEE Transactions on Instrumentation and Measurement (TIM), Under Review, May.2026.
+        </div>
+       </div>  
+       </div>
+
+      
+       <div class="publication-item">
+        <div class="publication-image">
           <img src="/media/publications/Robotic_fish_RAL.png" alt="Robotic_fish_RAL">
         </div>
        <div class="publication-info">
@@ -54,51 +74,134 @@ sections:
         <strong>Jiarui He</strong>, Yan zhou, Chengqian Zhang, Huangzhe Dai, Daofan Tang, Chengfeng Pan, Peng zhao
         </div>
 
+        <div class="publication-year">
+          IEEE Robotics and Automation Letters (RA-L), Aug.2025.
+        </div>
+
         <div class="publication-links">
         [ <a href="https://ieeexplore.ieee.org/document/11130919" target="_blank" rel="noopener">Publication</a> ]
         [ <a href="/uploads/Online_Velocity_Estimation_of_a_Robotic_Fish_Using_Artificial_Lateral_Line_System_With_Velocity-Decoupling_Sensing_Ability.pdf" target="_blank" rel="noopener">PDF</a> ]
         [ <a href="/video/Supporting Video.mp4">Video</a> ]
         </div>
        </div>  
-        <div class="publication-year">
-          IEEE RAL 2025
-        </div>
        </div>
     design:
       columns: '1'
 
-  - block: collection
+  - block: markdown
     id: experience
     content:
-      title: Experience
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+      title: '🌍 Experience'
+      subtitle: ''
+      text: |-
+       <div class="experience-item">
+        <div class="experience-image">
+          <img src="/media/experience/sharpa.webp" alt="Sharpa">
+        </div>
+        <div class="experience-info">
+         <div><strong>Sharpa Robotics</strong>, Tactile Department, Shanghai, China</div>
+         <div><em>Research Intern</em></div>
+        </div>  
+        <div class="experience-date">
+        Jun. 2026 -- Present
+        </div>
+       </div>
 
-  - block: collection
-    id: honors
+
+       <div class="experience-item">
+        <div class="experience-image">
+          <img src="/media/experience/nus.jpg" alt="nus">
+        </div>
+        <div class="experience-info">
+         <div><strong>National University of Singapore</strong>, Sinapore</div>
+         <div><em>Visiting Student</em></div>
+        </div>  
+        <div class="experience-date">
+        Aug. 2023
+        </div>
+       </div>
+
+
+       <div class="experience-item">
+        <div class="experience-image">
+          <img src="/media/experience/hku.png" alt="hku">
+        </div>
+        <div class="experience-info">
+         <div><strong>The University of Hong Kong</strong>, Hong Kong, China</div>
+         <div><em>Summer Research Programme</em></div>
+        </div>  
+        <div class="experience-date">
+        Jun. 2021 -- Aug. 2021
+        </div>
+       </div>
+       
+      # <div class="experience-item">
+      #  <div class="experience-image">
+      #    <img src="/media/experience/sharpa.webp" alt="Sharpa">
+      #  </div>
+      #  <div class="experience-info">
+      #   <div><strong>Deep robotics</strong>, Hangzhou, China</div>
+      #   <div><em>Summer Research Intern</em></div>
+      #  </div>  
+      #  <div class="experience-date">
+      #  Jun. 2023 -- Jul. 2023
+      #  </div>
+      # </div>
+       
+    design:
+      columns: '1'
+
+
+  - block: markdown
+    id: service
     content:
-      title: Honors&Awards
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: flase
+      title: '😀 Service'
+      subtitle: ''
+      text: |-
+        - **Reviewer**: RA-L (2025) 
+        - **Teaching Assistant**: Engineering Materials, Zhejiang University, 2024 Fall
+        - **President of the Graduate Student Association**, Department of Mechanical Engineering, Zhejiang University, 2024-2025
+        - **Volunteer**: "Five-Star Volunteer" award, Zhejiang University, with over **400** cumulative volunteer hours
     design:
-      view: citation
+      columns: '1'
 
-  - block: collection
+  
+  - block: markdown
     id: others
     content:
-      title: Others
-      filters:
-        folders:
-          - events
+      title: '🎀 Others'
+      subtitle: ''
+      text: |-
+       Outside of research, I enjoy music, sports, photography, and traveling.
+       - Piano & Vocal Music (both Amateur Grade 10 certified) 
+       - Tennis & Fitness enthusiast
+       - Beginner photographer :)
     design:
-      view: card
+      columns: '1'
 
+
+
+
+      #- block: collection
+  #  id: honors
+  #  content:
+  #    title: Honors&Awards
+  #    text: ''
+  #    filters:
+  #      folders:
+  #        - publications
+  #      exclude_featured: flase
+  #  design:
+  #    view: citation
+
+  #- block: collection
+  #  id: others
+  #  content:
+  #    title: Others
+  #    filters:
+  #      folders:
+  #        - events
+  #  design:
+  #    view: card
+  
 ---
