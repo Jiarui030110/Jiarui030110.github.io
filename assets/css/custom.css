@@ -21,14 +21,82 @@
   font-weight: 600;
 }
 
-#about .bio-link:hover {
+#about .bio-link-university {
+  color: #537eb7;
+  font-weight: 600;
   text-decoration: underline;
+}
+
+#about .avatar-wrapper {
+  width: 260px !important;
+  height: 260px !important;
+}
+
+#about .avatar {
+  width: 260px !important;
+  height: 260px !important;
+}
+
+#about .mb-12 {
+  margin-bottom: 2rem !important;
+}
+
+#about .mb-8 {  
+  margin-bottom: 1rem !important;
+}
+
+#about h1 {
+  font-size: 2.25rem !important;
+}
+
+#about h1::after {
+  content: "hjr030110@gmail.com\A";
+  display: block;
+  white-space: pre-line;
+  margin-top: 0.8rem;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #about .resume-biography .grid > .md\:col-span-8 {
+    display: contents;
+  }
+
+  #about .resume-biography .grid > .md\:col-span-4 {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+  }
+
+  #about .resume-biography .grid > .md\:col-span-8 > .mb-12 {
+    grid-column: 5 / span 8;
+    grid-row: 1;
+  }
+
+  #about .resume-biography .grid > .md\:col-span-8 > .mb-16 {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+    margin-top: -8.5rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+#about .phd-note {
+  font-size: 18px;
+  font-weight: 600;
+  color: #dc8809;
+  margin-top: 1.5rem;
 }
 
 
 #publications .max-w-prose {
   max-width: 1300px !important;
 }
+
 
 #publications .prose {
   max-width: 1300px !important;
