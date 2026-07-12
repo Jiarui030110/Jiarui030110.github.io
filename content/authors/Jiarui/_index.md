@@ -1,6 +1,6 @@
 ---
 # 姓名的标题 (将会显示在 admin 的位置)
-title: Jiarui
+title: Jiarui's homepage
 
 # 头衔/职位
 role: Researcher
