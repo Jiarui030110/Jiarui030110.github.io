@@ -99,7 +99,7 @@ sections:
           <img src="/media/experience/sharpa.webp" alt="Sharpa">
         </div>
         <div class="experience-info">
-         <div><strong>Sharpa Robotics</strong>, Tactile Department, Shanghai, China</div>
+         <div><strong>Sharpa Robotics</strong>, Shanghai, China</div>
          <div><em>Research Intern</em></div>
         </div>  
         <div class="experience-date">
