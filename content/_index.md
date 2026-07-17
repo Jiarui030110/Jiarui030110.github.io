@@ -55,7 +55,7 @@ sections:
         </div>
 
         <div class="publication-year">
-         Submitted to IEEE Transactions on Instrumentation and Measurement (TIM), Under Review, May.2026.
+         Submitted to IEEE Transactions on Instrumentation and Measurement (TIM), Under Review, April.2026.
         </div>
        </div>  
        </div>
